@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Résumé of Ranga Venkateswarlu Guturi, B.Tech graduate exploring SAP ABAP, Python, AI, and software development.">
+    <meta name="theme-color" content="#0b1020">
+    <title>Résumé — Ranga Venkateswarlu Guturi</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .resume-page { min-height: 100vh; padding: 48px 0 80px; }
+      .resume-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 28px; }
+      .resume-sheet { max-width: 820px; margin-inline: auto; padding: 58px 64px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); }
+      .resume-sheet h1 { margin-bottom: 8px; font-size: clamp(32px, 5vw, 48px); }
+      .resume-subtitle { margin-bottom: 17px; color: var(--accent); font-size: 15px; font-weight: 600; }
+      .resume-links { display: flex; flex-wrap: wrap; gap: 14px; color: var(--text-muted); font-size: 12px; }
+      .resume-links a { color: var(--accent); }
+      .resume-section { margin-top: 32px; }
+      .resume-section h2 { padding-bottom: 9px; border-bottom: 1px solid var(--border); font-size: 16px; letter-spacing: .04em; text-transform: uppercase; }
+      .resume-section p, .resume-section li { color: var(--text-muted); font-size: 13px; }
+      .resume-section ul { padding-left: 19px; margin-bottom: 0; }
+      .resume-section li + li { margin-top: 7px; }
+      .resume-project { margin-top: 17px; }
+      .resume-project h3 { margin-bottom: 5px; font-size: 15px; }
+      .resume-project p { margin-bottom: 0; }
+      @media (max-width: 600px) {
+        .resume-page { padding-top: 24px; }
+        .resume-sheet { padding: 30px 22px; }
+        .resume-toolbar { align-items: start; }
+      }
+      @media print {
+        :root { color-scheme: light; }
+        body { background: #fff; color: #111827; }
+        body::before, .resume-toolbar, .site-header, .site-footer { display: none !important; }
+        .resume-page { min-height: 0; padding: 0; }
+        .resume-sheet { max-width: none; padding: 0; border: 0; border-radius: 0; background: #fff; }
+        .resume-sheet h1, .resume-section h2, .resume-project h3 { color: #111827; }
+        .resume-subtitle, .resume-links a { color: #0369a1; }
+        .resume-links, .resume-section p, .resume-section li { color: #374151; }
+        .resume-section h2 { border-color: #d1d5db; }
+        .resume-section { break-inside: avoid; }
+        a { text-decoration: none; }
+      }
+    </style>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html"><span class="brand-mark">RVG<span>.</span></span><span class="brand-name">Ranga Venkateswarlu Guturi</span></a>
+        <a class="button button-small button-outline" href="index.html">Back to portfolio</a>
+      </div>
+    </header>
+    <main class="resume-page" id="resume-top">
+      <div class="container">
+        <div class="resume-toolbar">
+          <a class="project-link" href="index.html">← Back to portfolio</a>
+          <button class="button button-primary" type="button" onclick="window.print()">Print / save as PDF</button>
+        </div>
+        <article class="resume-sheet">
+          <h1>Ranga Venkateswarlu Guturi</h1>
+          <p class="resume-subtitle">B.Tech Graduate · Aspiring Software Developer</p>
+          <div class="resume-links">
+            <a href="https://github.com/rangavenkateswarluguturi-rgb" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/ranga-venkateswarlu-guturi-08a024379/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          <section class="resume-section">
+            <h2>Profile</h2>
+            <p>Recent B.Tech graduate interested in SAP ABAP, Python development, AI applications, and web technologies. Building practical skills through hands-on projects and focused learning, with an interest in entry-level software development opportunities.</p>
+          </section>
+          <section class="resume-section">
+            <h2>Technical skills</h2>
+            <ul>
+              <li><strong>Enterprise development:</strong> SAP ABAP, ABAP Data Dictionary, internal tables, classical reports, Open SQL, modularization.</li>
+              <li><strong>Programming &amp; data:</strong> Python, SQL, Java fundamentals, PostgreSQL fundamentals.</li>
+              <li><strong>AI &amp; web:</strong> Ollama, local language models, Retrieval-Augmented Generation (RAG), ChromaDB, HTML, CSS, JavaScript fundamentals.</li>
+            </ul>
+          </section>
+          <section class="resume-section">
+            <h2>Projects</h2>
+            <div class="resume-project">
+              <h3>Web-Based RAG Research Assistant</h3>
+              <p>Explored retrieval-grounded answers by finding relevant source content and providing it as context to a language model. Technologies: Python, ChromaDB, language models. <a href="https://github.com/rangavenkateswarluguturi-rgb/RAG-Project" target="_blank" rel="noopener noreferrer">Source code</a>.</p>
+            </div>
+            <div class="resume-project">
+              <h3>Local LLM Chatbot</h3>
+              <p>Experimented with running local language models using Ollama and exploring Python-based interaction with them.</p>
+            </div>
+            <div class="resume-project">
+              <h3>SAP ABAP Practice Reports</h3>
+              <p>Practiced internal tables, classical reports, Open SQL, and report events while developing ABAP fundamentals.</p>
+            </div>
+          </section>
+          <section class="resume-section">
+            <h2>Currently learning</h2>
+            <ul>
+              <li>Core ABAP and interview preparation; modern ABAP and SAP S/4HANA concepts.</li>
+              <li>Testing, documentation, software engineering practices, and AI-powered RAG workflows.</li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="container footer-inner"><span class="footer-copyright">© <span id="current-year"></span> Ranga Venkateswarlu Guturi</span><a class="back-to-top" href="#resume-top">Back to top <svg class="icon" aria-hidden="true"><path d="m18 15-6-6-6 6M12 9v12"/></svg></a></div></footer>
+  </body>
+</html>
